@@ -1,0 +1,17 @@
+** LOGIN THROUGH SSH WITH OUT PASSWORD **
+
+
+                                                          ---> cd ..
+                                                                 ssh-keygen
+                                                                 cd /home/user/.ssh
+                                                                 ls
+   here we have     ----------------------> id_rsa  id_rsa.pub                                                        
+                                                          --> mv id_rsa.pub authorized_keys
+                                                                cat id_rsa
+                                                                copy all private key
+
+goto listner machine :                 --> nano id_rsa
+                                                                save and exit
+                                                                chmod 600 id_rsa
+                                                            --> ssh -i id_rsa user@i.p of target machine
+

